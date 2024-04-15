@@ -2597,7 +2597,7 @@ gst_hls_media_playlist_recommended_buffering_threshold (GstHLSMediaPlaylist *
       3 * (playlist->duration / playlist->segments->len) / 2;
 
   if (GST_HLS_MEDIA_PLAYLIST_IS_LIVE (playlist)) {
-    /* For live playlists, reduce the recommended buffering threshold 
+    /* For live playlists, reduce the recommended buffering threshold
      * to match the starting hold back distance if needed, otherwise
      * we'll hit the live edge and have to wait before we hit 100% */
     if (GST_CLOCK_TIME_IS_VALID (playlist->hold_back)
