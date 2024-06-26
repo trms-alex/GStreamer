@@ -641,7 +641,7 @@ gst_hls_webvtt_sink_insert_timestamp_map (GstHlsWebvttSink * self,
   };
   GstBuffer *header_buf = NULL;
   GstMapInfo map;
-  gchar *next_line = NULL;
+  guint8 *next_line = NULL;
   gsize next_line_pos = 0;
   GString *str = NULL;
   gsize len;
