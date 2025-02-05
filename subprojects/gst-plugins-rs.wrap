@@ -2,4 +2,4 @@
 directory=gst-plugins-rs
 url=https://github.com/trms-alex/gst-plugins-rs.git
 push-url=git@github.com:trms-alex/gst-plugins-rs.git
-revision=awstranscriber2
+revision=test
