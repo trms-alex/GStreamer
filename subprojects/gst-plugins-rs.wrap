@@ -1,5 +1,5 @@
 [wrap-git]
 directory=gst-plugins-rs
-url=https://github.com/trms/gst-plugins-rs.git
-push-url=git@github.com:trms/gst-plugins-rs.git
-revision=cbl-2025-01-13
+url=https://github.com/trms-alex/gst-plugins-rs.git
+push-url=git@github.com:trms-alex/gst-plugins-rs.git
+revision=awstranscriber2
