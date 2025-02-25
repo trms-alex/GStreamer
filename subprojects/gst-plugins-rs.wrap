@@ -1,5 +1,5 @@
 [wrap-git]
 directory=gst-plugins-rs
-url=https://github.com/trms-alex/gst-plugins-rs.git
-push-url=git@github.com:trms-alex/gst-plugins-rs.git
-revision=awstranscriber2
+url=https://gitlab.freedesktop.org/meh/gst-plugins-rs.git
+push-url=git@ssh.gitlab.freedesktop.org:meh/gst-plugins-rs.git
+revision=transcriberbin-dynamic-languages
